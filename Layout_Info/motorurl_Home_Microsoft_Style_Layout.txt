@@ -1,0 +1,32 @@
+We need to reformat to what I am looking for
+
+Let me know if I can provide you a copy of the HTML, or an "inspect" HTML pull to quantify the formating
+
+element locations should be the same as this example
+
+1 - Navbar on the Left
+	- nice tight spacing and font size
+	- opens collapsed to main headings topics like the 2nd screenshot
+	
+2 - Find by title
+	-Same format, don't worry about icon just plain
+	- Not functional at this point
+
+3 - Breadcrumbs like this
+
+4 - Position the Title bar (in blue) but just show the logo and a larger text with "Motorurl.com"
+	- logo is in "\assets\Logo.png"
+
+
+5 - a table of contents like the "In this Article" but called something more casual
+
+Please log this in a canvas called site layout
+
+we'll do these one at a time, test with live server, commit/sync, then go to the next
+
+if you have any questions let me know
+
+
+
+
+

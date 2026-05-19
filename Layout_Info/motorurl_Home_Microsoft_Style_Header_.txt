@@ -1,0 +1,833 @@
+<header id="ms--site-header" data-test-id="site-header-wrapper" role="banner" itemscope="itemscope" itemtype="http://schema.org/Organization">
+				<div id="ms--mobile-nav" class="site-header display-none-tablet padding-inline-none gap-none" data-bi-name="mobile-header" data-test-id="mobile-header"><!---->
+		<div id="ms--site-header-hamburger" data-test-id="site-header-hamburger">
+			<button type="button" class="button button-clear inner-focus" data-test-id="mobile-nav-open-button" data-bi-name="mobile-nav-open-button" title="Global navigation" aria-label="Global navigation">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-menu"></span>
+				</span>
+			</button>
+		</div>
+
+		<!-- Brand -->
+		
+		<a class="site-header-brand" itemprop="url" href="/en-us/" data-bi-name="site-header-brand-learn-mobile" data-test-id="site-header-brand-mobile">
+			<span><!---->Learn<!----></span>
+		</a>
+	
+
+		<!-- MS logo -->
+		
+		<a href="https://www.microsoft.com" aria-label="Microsoft" itemprop="url" data-bi-name="site-header-microsoft-logo-mobile" data-test-id="site-header-microsoft-logo-mobile" class="site-header-logo site-header-logo-centered">
+			
+		<svg aria-hidden="true" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" itemprop="logo" itemscope="itemscope">
+			<path d="M11.5216 0.5H0V11.9067H11.5216V0.5Z" fill="#f25022"></path>
+			<path d="M24.2418 0.5H12.7202V11.9067H24.2418V0.5Z" fill="#7fba00"></path>
+			<path d="M11.5216 13.0933H0V24.5H11.5216V13.0933Z" fill="#00a4ef"></path>
+			<path d="M24.2418 13.0933H12.7202V24.5H24.2418V13.0933Z" fill="#ffb900"></path>
+		</svg>
+	
+		</a>
+	
+
+		<!-- Search -->
+		
+		<search-expander data-test-id="site-header-search-mobile" class="display-flex flex-grow-1 justify-content-flex-end">
+			<div hidden="" id="ms--site-header-search-mobile" class="display-flex align-items-center gap-xxs width-full padding-left-xxs">
+				
+		<form class="flex-grow-1" method="GET" role="search" id="ms--site-header-search-form-mobile" data-bi-name="site-header-search-form-mobile" name="site-header-search-form-mobile" aria-label="Search" action="/en-us/search/">
+			<div class="autocomplete display-block" data-bi-name="autocomplete"><!---->
+			<div class="field-body control ">
+				<input role="combobox" maxlength="100" aria-autocomplete="list" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" id="site-header-search-autocomplete-input-mobile" data-test-id="site-header-search-autocomplete-input-mobile" class="autocomplete-input input 
+						
+						width-full" type="search" name="terms" aria-expanded="false" aria-owns="ax-1-listbox" aria-controls="ax-1-listbox" aria-activedescendant="" aria-label="Search" aria-describedby="ms--site-header-search-autocomplete-input-mobile-description" placeholder="Search" data-bi-name="site-header-search-autocomplete-input-mobile" pattern=".*">
+
+				
+				
+
+				<span hidden="" id="ms--site-header-search-autocomplete-input-mobile-description">
+					Suggestions will filter as you type
+				</span>
+			</div>
+
+			<ul role="listbox" id="ax-1-listbox" data-test-id="site-header-search-autocomplete-input-mobile-listbox" class="autocomplete-suggestions is-vertically-scrollable padding-xxs " aria-label="Suggestions" hidden="">
+				
+				
+			</ul>
+		<!----></div>
+			<!-- mobile safari will not dispatch submit event unless there's a submit button that is not display:none -->
+			<button type="submit" class="visually-hidden" tabindex="-1" aria-hidden="true"></button>
+			<input name="category" hidden="" value="">
+			
+			
+		</form>
+	
+				<button data-search-expander-trigger-close="" type="button" class="button button-clear inner-focus" aria-controls="ms--site-header-search-mobile" aria-label="Close search" data-bi-name="site-header-search-close-mobile" data-test-id="site-header-search-close-mobile">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-navigate-close"></span>
+					</span>
+				</button>
+			</div>
+			<button data-search-expander-trigger-open="" type="button" class="button button-clear inner-focus" aria-controls="ms--site-header-search-mobile" aria-label="Open search" data-bi-name="site-header-search-open-mobile" data-test-id="site-header-search-open-mobile">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-search"></span>
+				</span>
+			</button>
+		</search-expander>
+	
+
+		<!-- User avatar/Sign in -->
+		<!---->
+		<a href="#" data-bi-name="site-header-sign-in-mobile" data-test-id="site-header-sign-in-mobile" class="link-button font-size-sm flex-shrink-0 docs-sign-in auth-status-determined not-authenticated margin-right-xs margin-left-xxs">
+			Sign in
+		</a>
+	 
+		<details data-bi-name="site-header-user-mobile" class="popover popover-right auth-status-determined authenticated margin-right-xs margin-left-xxs">
+			<summary data-bi-name="site-header-user-avatar" aria-label="Your Account" data-test-id="site-header-user-mobile">
+				<div class="persona persona-sm">
+					<figure class="persona-avatar">
+						<img alt="" data-profile-property="avatarThumbnailUrl">
+					</figure>
+				</div>
+			</summary>
+			<div class="popover-content width-auto" data-bi-name="site-header-user-menu">
+				<div class="persona persona-sm">
+					<figure class="persona-avatar">
+						<img alt="" data-profile-property="avatarUrl" aria-labelledby="ms--user-display-name-mobile">
+					</figure>
+					<div class="persona-details" data-test-id="persona-detail-mobile">
+						<p class="persona-name" data-profile-property="displayName" id="ms--user-display-name-mobile"></p>
+						<p data-profile-property="upn"></p>
+					</div>
+				</div>
+				<ul class="padding-block-xs">
+					<li class="padding-bottom-xs">
+						<a data-profile-property="profileUrl" class="font-size-sm" data-bi-name="site-header-user-profile" href="https://learn.microsoft.com/en-us/users/me/activity/">
+							Profile
+						</a>
+					</li>
+					
+					<li>
+						<a data-profile-property="settingsUrl" class="font-size-sm" data-bi-name="site-header-user-settings" href="https://learn.microsoft.com/en-us/users/me/settings/">
+							Settings
+						</a>
+					</li>
+				</ul>
+				<div class="border-top padding-top-xs">
+					<a class="docs-sign-out font-size-sm" href="#" data-bi-name="site-header-sign-out-mobile" data-test-id="site-header-user-sign-out-mobile">
+						Sign out
+					</a>
+				</div>
+			</div>
+		</details>
+	<!---->
+	<!----></div>
+				<div id="ms--primary-nav" class="site-header display-none display-flex-tablet" data-bi-name="L1-header" data-test-id="primary-header"><!---->
+		<!-- MS logo -->
+		
+		<a href="https://www.microsoft.com" aria-label="Microsoft" itemprop="url" data-bi-name="site-header-microsoft-logo" data-test-id="site-header-microsoft-logo" class="site-header-logo ">
+			
+		<svg aria-hidden="true" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" itemprop="logo" itemscope="itemscope">
+			<path d="M11.5216 0.5H0V11.9067H11.5216V0.5Z" fill="#f25022"></path>
+			<path d="M24.2418 0.5H12.7202V11.9067H24.2418V0.5Z" fill="#7fba00"></path>
+			<path d="M11.5216 13.0933H0V24.5H11.5216V13.0933Z" fill="#00a4ef"></path>
+			<path d="M24.2418 13.0933H12.7202V24.5H24.2418V13.0933Z" fill="#ffb900"></path>
+		</svg>
+	
+		</a>
+	
+
+		<!-- Divider -->
+		<div class="site-header-divider"></div>
+
+		<!-- Brand -->
+		
+		<a class="site-header-brand" itemprop="url" href="/en-us/" data-bi-name="site-header-brand-learn" data-test-id="site-header-brand">
+			<span><!---->Learn<!----></span>
+		</a>
+	
+
+		<div id="ms--search-expander-wrapper" class="display-flex justify-content-space-between flex-grow-1 align-items-center overflow-x-hidden height-full">
+			<!-- Main Nav -->
+			
+		<overflow-menu class="align-self-stretch" style="display: block; overflow: hidden; width: 100%;">
+			<nav class="site-header-nav" data-bi-name="primary-nav" data-overflow-menu-container="" aria-label="Global" style="visibility: visible; overflow: hidden;">
+				<button type="button" data-overflow-menu-prev-button="" data-bi-name="site-header-btn-prev" class="button button-clear button-sm inner-focus" hidden="" aria-label="Previous">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-chevron-left-light"></span>
+					</span>
+				</button>
+
+				
+		<ul class="display-flex gap-xxs-desktop">
+			<!---->
+			<li aria-setsize="4" aria-posinset="1">
+				<panel-controller data-bi-name="site-header-btn-1-documentation">
+					<button type="button" aria-expanded="false" class="site-header-button" data-overflow-menu-item="" aria-controls="ms--panel-1" data-test-id="site-header-panel-controller-1" style="white-space: nowrap;">
+						<span><!---->Documentation<!----></span>
+						<span class="icon expanded-indicator" aria-hidden="true">
+							<span class="docon docon-chevron-down-light"></span>
+						</span>
+					</button>
+					<div class="site-header-panel" hidden="" id="ms--panel-1" data-bi-name="panel-1-documentation" data-test-id="site-header-panel-1">
+						
+		<div class="site-header-panel-content">
+			<ul class="site-header-panel-links">
+				<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/docs/" data-bi-name="panel-link-1-all-product-documentation">
+						All product documentation
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/azure/?product=popular" data-bi-name="panel-link-2-azure-documentation">
+						Azure documentation
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/dynamics365/" data-bi-name="panel-link-3-dynamics-365-documentation">
+						Dynamics 365 documentation
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/copilot/" data-bi-name="panel-link-4-microsoft-copilot-documentation">
+						Microsoft Copilot documentation
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/microsoft-365/" data-bi-name="panel-link-5-microsoft-365-documentation">
+						Microsoft 365 documentation
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/power-platform/" data-bi-name="panel-link-6-power-platform-documentation">
+						Power Platform documentation
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/samples/" data-bi-name="panel-link-7-code-samples">
+						Code samples
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/troubleshoot/" data-bi-name="panel-link-8-troubleshooting-documentation">
+						Troubleshooting documentation
+					</a>
+				</li>
+			<!---->
+			</ul>
+			
+		</div>
+		
+			<section class="site-header-panel-featured-content"><!----><!---->
+				<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="featured-card-1-ai-tour">
+					<div class="card-content">
+						<p class="card-supertitle line-clamp-2 line-height-normal"><!---->Free to join. Request to attend.<!----></p>
+						<a class="card-title color-text background-color-transparent stretched-link" href="https://aitour.microsoft.com/?wt.mc_id=itour26_learnmarketingspot_wwl">
+							Microsoft AI Tour
+						</a>
+						<p class="card-content-description line-clamp-2"><!---->Take your business to the AI frontier.<!----></p>
+					</div>
+				</article>
+			<!----><!----></section>
+		
+	
+					</div>
+				</panel-controller>
+			</li>
+		<!---->
+			<li aria-setsize="4" aria-posinset="2">
+				<panel-controller data-bi-name="site-header-btn-2-training">
+					<button type="button" aria-expanded="false" class="site-header-button" data-overflow-menu-item="" aria-controls="ms--panel-2" data-test-id="site-header-panel-controller-2" style="white-space: nowrap;">
+						<span><!---->Training<!----></span>
+						<span class="icon expanded-indicator" aria-hidden="true">
+							<span class="docon docon-chevron-down-light"></span>
+						</span>
+					</button>
+					<div class="site-header-panel" hidden="" id="ms--panel-2" data-bi-name="panel-2-training" data-test-id="site-header-panel-2">
+						
+		<div class="site-header-panel-content">
+			<ul class="site-header-panel-links">
+				<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/training/" data-bi-name="panel-link-1-training">
+						All training
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/training/browse/?products=azure" data-bi-name="panel-link-2-azure-training">
+						Azure training
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/training/browse/?products=dynamics-365" data-bi-name="panel-link-3-dynamics-365-training">
+						Dynamics 365 training
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/training/browse/?products=ms-copilot" data-bi-name="panel-link-4-microsoft-copilot-training">
+						Microsoft Copilot training
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/training/browse/?products=m365" data-bi-name="panel-link-5-microsoft-365-training">
+						Microsoft 365 training
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/training/browse/?products=power-platform" data-bi-name="panel-link-6-microsoft-power-platform-training">
+						Microsoft Power Platform training
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/credentials/" data-bi-name="panel-link-7-credentials">
+						Credentials
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/training/career-paths/" data-bi-name="panel-link-8-career-paths">
+						Career paths
+					</a>
+				</li>
+			<!---->
+			</ul>
+			
+		</div>
+		
+			<section class="site-header-panel-featured-content"><!----><!---->
+				<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="featured-card-1-ai-tour">
+					<div class="card-content">
+						<p class="card-supertitle line-clamp-2 line-height-normal"><!---->Free to join. Request to attend.<!----></p>
+						<a class="card-title color-text background-color-transparent stretched-link" href="https://aitour.microsoft.com/?wt.mc_id=itour26_learnmarketingspot_wwl">
+							Microsoft AI Tour
+						</a>
+						<p class="card-content-description line-clamp-2"><!---->Take your business to the AI frontier.<!----></p>
+					</div>
+				</article>
+			<!----><!----></section>
+		
+	
+					</div>
+				</panel-controller>
+			</li>
+		<!---->
+			<li aria-setsize="4" aria-posinset="3">
+				<panel-controller data-bi-name="site-header-btn-3-qna">
+					<button type="button" aria-expanded="false" class="site-header-button" data-overflow-menu-item="" aria-controls="ms--panel-3" data-test-id="site-header-panel-controller-3" style="white-space: nowrap;">
+						<span><!---->Q&amp;A<!----></span>
+						<span class="icon expanded-indicator" aria-hidden="true">
+							<span class="docon docon-chevron-down-light"></span>
+						</span>
+					</button>
+					<div class="site-header-panel" hidden="" id="ms--panel-3" data-bi-name="panel-3-qna" data-test-id="site-header-panel-3">
+						
+		<div class="site-header-panel-content">
+			<ul class="site-header-panel-links">
+				<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/answers/questions/ask/" data-bi-name="panel-link-1-ask-a-question">
+						Ask a question
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/answers/tags/133/azure/" data-bi-name="panel-link-2-azure-questions">
+						Azure questions
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/answers/tags/60/windows/" data-bi-name="panel-link-3-windows-questions">
+						Windows questions
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/answers/tags/9/m365/" data-bi-name="panel-link-4-m365-questions">
+						Microsoft 365 questions
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/answers/tags/131/office-outlook/" data-bi-name="panel-link-5-microsoft-outlook-questions">
+						Microsoft Outlook questions
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/answers/tags/108/office-teams/" data-bi-name="panel-link-6-microsoft-teams-questions">
+						Microsoft Teams questions
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/answers/tags/" data-bi-name="panel-link-7-popular-tags">
+						Popular tags
+					</a>
+				</li>
+			<!---->
+				<li>
+					<a class="button button-clear button-sm button-block text-align-left font-weight-normal justify-content-flex-start inner-focus border-none background-color-body-accent-onhover" href="/en-us/answers/questions/" data-bi-name="panel-link-8-all-questions">
+						All questions
+					</a>
+				</li>
+			<!---->
+			</ul>
+			
+		</div>
+		
+			<section class="site-header-panel-featured-content"><!----><!---->
+				<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="featured-card-1-ai-tour">
+					<div class="card-content">
+						<p class="card-supertitle line-clamp-2 line-height-normal"><!---->Free to join. Request to attend.<!----></p>
+						<a class="card-title color-text background-color-transparent stretched-link" href="https://aitour.microsoft.com/?wt.mc_id=itour26_learnmarketingspot_wwl">
+							Microsoft AI Tour
+						</a>
+						<p class="card-content-description line-clamp-2"><!---->Take your business to the AI frontier.<!----></p>
+					</div>
+				</article>
+			<!----><!----></section>
+		
+	
+					</div>
+				</panel-controller>
+			</li>
+		<!---->
+			<li aria-setsize="4" aria-posinset="4">
+				<panel-controller data-bi-name="site-header-btn-4-topics">
+					<button type="button" aria-expanded="false" class="site-header-button" data-overflow-menu-item="" aria-controls="ms--panel-4" data-test-id="site-header-panel-controller-4" style="white-space: nowrap;">
+						<span><!---->Topics<!----></span>
+						<span class="icon expanded-indicator" aria-hidden="true">
+							<span class="docon docon-chevron-down-light"></span>
+						</span>
+					</button>
+					<div class="site-header-panel" hidden="" id="ms--panel-4" data-bi-name="panel-4-topics" data-test-id="site-header-panel-4">
+						
+		<div class="site-header-panel-content">
+			<ul class="site-header-panel-cards">
+				<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-1-ai">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="/en-us/ai/">
+								Artificial intelligence
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Learning hub to build AI skills<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-2-compliance">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="/en-us/compliance/">
+								Compliance
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Compliance resources you need to get started with your business<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-3-devops">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="/en-us/devops/">
+								DevOps
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->DevOps practices, Git version control and Agile methods<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-4-microsoft-learn-for-organizations">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="/en-us/training/organizations/">
+								Learn for Organizations
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Curated offerings from Microsoft to boost your team’s technical skills<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-5-platform-engineering">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="/en-us/platform-engineering/">
+								Platform engineering
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Tools from Microsoft and others to build personalized developer experiences<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-6-security">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="/en-us/security/">
+								Security
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Guidance to help you tackle security challenges<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-7-assessments">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="/en-us/assessments/">
+								Assessments
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Interactive guidance with custom recommendations<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-8-student-hub">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="/en-us/training/student-hub/">
+								Student hub
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Self-paced and interactive training for students<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+				<li>
+					<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="panel-card-9-educator-center">
+						<div class="card-content">
+							<a class="card-title color-text background-color-transparent stretched-link" href="/en-us/training/educator-center/">
+								Educator center
+							</a>
+							<p class="card-content-description line-clamp-2"><!---->Resources for educators to bring technical innovation in their classroom<!----></p>
+						</div>
+					</article>
+				</li>
+			<!---->
+			</ul>
+			
+		</div>
+		
+			<section class="site-header-panel-featured-content"><!----><!---->
+				<article class="card position-relative background-color-body-accent-onhover background-color-body-medium box-shadow-none" data-bi-name="featured-card-1-ai-tour">
+					<div class="card-content">
+						<p class="card-supertitle line-clamp-2 line-height-normal"><!---->Free to join. Request to attend.<!----></p>
+						<a class="card-title color-text background-color-transparent stretched-link" href="https://aitour.microsoft.com/?wt.mc_id=itour26_learnmarketingspot_wwl">
+							Microsoft AI Tour
+						</a>
+						<p class="card-content-description line-clamp-2"><!---->Take your business to the AI frontier.<!----></p>
+					</div>
+				</article>
+			<!----><!----></section>
+		
+	
+					</div>
+				</panel-controller>
+			</li>
+		<!---->
+		</ul>
+	
+
+				<button type="button" data-overflow-menu-next-button="" data-bi-name="site-header-btn-next" class="button button-clear button-sm inner-focus margin-left-auto" hidden="" aria-label="Next">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-chevron-right-light"></span>
+					</span>
+				</button>
+			</nav>
+		</overflow-menu>
+	
+
+			<!-- Search -->
+			
+		<search-expander data-test-id="site-header-search" class="flex-grow-1 margin-left-xxs">
+			<div hidden="" id="ms--site-header-search" class="display-flex align-items-center gap-xxs ">
+				
+		<form class="flex-grow-1" method="GET" role="search" id="ms--site-header-search-form" data-bi-name="site-header-search-form" name="site-header-search-form" aria-label="Search" action="/en-us/search/">
+			<div class="autocomplete display-block" data-bi-name="autocomplete"><!---->
+			<div class="field-body control ">
+				<input role="combobox" maxlength="100" aria-autocomplete="list" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" id="site-header-search-autocomplete-input" data-test-id="site-header-search-autocomplete-input" class="autocomplete-input input input-sm
+						
+						width-full" type="search" name="terms" aria-expanded="false" aria-owns="ax-0-listbox" aria-controls="ax-0-listbox" aria-activedescendant="" aria-label="Search" aria-describedby="ms--site-header-search-autocomplete-input-description" placeholder="Search" data-bi-name="site-header-search-autocomplete-input" pattern=".*">
+
+				
+				
+
+				<span hidden="" id="ms--site-header-search-autocomplete-input-description">
+					Suggestions will filter as you type
+				</span>
+			</div>
+
+			<ul role="listbox" id="ax-0-listbox" data-test-id="site-header-search-autocomplete-input-listbox" class="autocomplete-suggestions is-vertically-scrollable padding-xxs " aria-label="Suggestions" hidden="">
+				
+				
+			</ul>
+		<!----></div>
+			<!-- mobile safari will not dispatch submit event unless there's a submit button that is not display:none -->
+			<button type="submit" class="visually-hidden" tabindex="-1" aria-hidden="true"></button>
+			<input name="category" hidden="" value="">
+			
+			
+		</form>
+	
+				<button data-search-expander-trigger-close="" type="button" class="button button-clear inner-focus" aria-controls="ms--site-header-search" aria-label="Close search" data-bi-name="site-header-search-close" data-test-id="site-header-search-close">
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-navigate-close"></span>
+					</span>
+				</button>
+			</div>
+			<button data-search-expander-trigger-open="" type="button" class="button button-clear inner-focus" aria-controls="ms--site-header-search" aria-label="Open search" data-bi-name="site-header-search-open" data-test-id="site-header-search-open">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-search"></span>
+				</span>
+			</button>
+		</search-expander>
+	
+		</div>
+
+		<!-- User avatar/Sign in -->
+		<!---->
+		<a href="#" data-bi-name="site-header-sign-in" data-test-id="site-header-sign-in" class="link-button font-size-sm flex-shrink-0 docs-sign-in auth-status-determined not-authenticated ">
+			Sign in
+		</a>
+	 
+		<details data-bi-name="site-header-user" class="popover popover-right auth-status-determined authenticated ">
+			<summary data-bi-name="site-header-user-avatar" aria-label="Your Account" data-test-id="site-header-user">
+				<div class="persona ">
+					<figure class="persona-avatar">
+						<img alt="" data-profile-property="avatarThumbnailUrl">
+					</figure>
+				</div>
+			</summary>
+			<div class="popover-content width-auto" data-bi-name="site-header-user-menu">
+				<div class="persona ">
+					<figure class="persona-avatar">
+						<img alt="" data-profile-property="avatarUrl" aria-labelledby="ms--user-display-name">
+					</figure>
+					<div class="persona-details" data-test-id="persona-detail">
+						<p class="persona-name" data-profile-property="displayName" id="ms--user-display-name"></p>
+						<p data-profile-property="upn"></p>
+					</div>
+				</div>
+				<ul class="padding-block-xs">
+					<li class="padding-bottom-xs">
+						<a data-profile-property="profileUrl" class="font-size-sm" data-bi-name="site-header-user-profile" href="https://learn.microsoft.com/en-us/users/me/activity/">
+							Profile
+						</a>
+					</li>
+					
+					<li>
+						<a data-profile-property="settingsUrl" class="font-size-sm" data-bi-name="site-header-user-settings" href="https://learn.microsoft.com/en-us/users/me/settings/">
+							Settings
+						</a>
+					</li>
+				</ul>
+				<div class="border-top padding-top-xs">
+					<a class="docs-sign-out font-size-sm" href="#" data-bi-name="site-header-sign-out" data-test-id="site-header-user-sign-out">
+						Sign out
+					</a>
+				</div>
+			</div>
+		</details>
+	<!---->
+	<!----></div>
+				<div id="ms--secondary-nav" class="display-none display-flex-tablet" data-bi-name="L2-header" data-test-id="secondary-header"><!----><div class="site-header width-full"><!----> 
+		<a class="site-header-brand font-size-h6 padding-inline-none margin-right-xxs" itemprop="url" href="/en-us/office/vba/api/overview" data-bi-name="secondary-nav-link-category-visual-basic-for-applications">
+			<span>
+				Visual Basic for Applications
+				
+			</span>
+		</a>
+	 
+		
+		<nav class="site-header-nav width-auto" data-bi-name="secondary-nav" aria-label="Site">
+			<ul class="display-flex">
+				<!---->
+		<li class="dropdown">
+			<button type="button" aria-expanded="false" class="dropdown-trigger site-header-button  site-header-button-icon-chevron" aria-controls="bx-25" data-bi-name="secondary-nav-btn-1-browse-by-product" value="undefined">
+				<span><!---->Browse by product<!----></span>
+				<span aria-hidden="true" class="icon expanded-indicator ">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<ul class="dropdown-menu padding-bottom-xxs background-color-body-medium" id="bx-25" aria-label="Browse by product" data-bi-name="secondary-nav-menu-1-browse-by-product">
+				<!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/access/" data-bi-name="secondary-nav-link-1-access">
+						<span><!---->Access<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/excel/" data-bi-name="secondary-nav-link-2-excel">
+						<span><!---->Excel<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/office-mac/" data-bi-name="secondary-nav-link-3-office-for-mac">
+						<span><!---->Office for Mac<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/outlook/" data-bi-name="secondary-nav-link-4-outlook">
+						<span><!---->Outlook<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/powerpoint/" data-bi-name="secondary-nav-link-5-powerpoint">
+						<span><!---->PowerPoint<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/project/" data-bi-name="secondary-nav-link-6-project">
+						<span><!---->Project<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/publisher/" data-bi-name="secondary-nav-link-7-publisher">
+						<span><!---->Publisher<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/visio/" data-bi-name="secondary-nav-link-8-visio">
+						<span><!---->Visio<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/word/" data-bi-name="secondary-nav-link-9-word">
+						<span><!---->Word<!----></span>
+					</a>
+				</li>
+		  <!---->
+			</ul>
+		</li>
+	<!---->
+				<li>
+					<a data-test-id="header-link-vba-language-reference" class="has-external-link-indicator site-header-button " href="/en-us/office/vba/api/overview/language-reference/" data-bi-name="secondary-nav-link-2-vba-language-reference">
+						<span><!---->VBA language reference<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a data-test-id="header-link-office-library-reference" class="has-external-link-indicator site-header-button " href="/en-us/office/vba/api/overview/library-reference/" data-bi-name="secondary-nav-link-3-office-library-reference">
+						<span><!---->Office library reference<!----></span>
+					</a>
+				</li>
+		  <!---->
+		<li class="dropdown" hidden="">
+			<button type="button" aria-expanded="false" class="dropdown-trigger site-header-button  site-header-button-icon-chevron" aria-controls="bx-26" data-bi-name="secondary-nav-btn-more" value="undefined">
+				<span><!---->More<!----></span>
+				<span aria-hidden="true" class="icon expanded-indicator ">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<ul class="dropdown-menu padding-bottom-xxs background-color-body-medium" id="bx-26" aria-label="More" data-bi-name="secondary-nav-menu-more">
+				<!---->
+		<li class="dropdown" hidden="">
+			<button type="button" aria-expanded="false" class="dropdown-trigger site-header-button  width-full justify-content-space-between padding-inline-xs padding-block-xxs" aria-controls="bx-27" data-bi-name="secondary-nav-btn-1-browse-by-product" value="undefined">
+				<span><!---->Browse by product<!----></span>
+				<span aria-hidden="true" class="icon  margin-left-xs">
+					<span class="docon docon-chevron-right-light"></span>
+				</span>
+			</button>
+			<ul class="dropdown-menu padding-bottom-xxs background-color-body-medium" id="bx-27" aria-label="Browse by product" data-bi-name="secondary-nav-menu-1-browse-by-product">
+				<!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/access/" data-bi-name="secondary-nav-link-1-access">
+						<span><!---->Access<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/excel/" data-bi-name="secondary-nav-link-2-excel">
+						<span><!---->Excel<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/office-mac/" data-bi-name="secondary-nav-link-3-office-for-mac">
+						<span><!---->Office for Mac<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/outlook/" data-bi-name="secondary-nav-link-4-outlook">
+						<span><!---->Outlook<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/powerpoint/" data-bi-name="secondary-nav-link-5-powerpoint">
+						<span><!---->PowerPoint<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/project/" data-bi-name="secondary-nav-link-6-project">
+						<span><!---->Project<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/publisher/" data-bi-name="secondary-nav-link-7-publisher">
+						<span><!---->Publisher<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/visio/" data-bi-name="secondary-nav-link-8-visio">
+						<span><!---->Visio<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li>
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/word/" data-bi-name="secondary-nav-link-9-word">
+						<span><!---->Word<!----></span>
+					</a>
+				</li>
+		  <!---->
+			</ul>
+		</li>
+	<!---->
+				<li hidden="">
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/language-reference/" data-bi-name="secondary-nav-link-2-vba-language-reference">
+						<span><!---->VBA language reference<!----></span>
+					</a>
+				</li>
+		  <!---->
+				<li hidden="">
+					<a class="has-external-link-indicator site-header-button width-full justify-content-flex-start padding-inline-xs padding-block-xxs " href="/en-us/office/vba/api/overview/library-reference/" data-bi-name="secondary-nav-link-3-office-library-reference">
+						<span><!---->Office library reference<!----></span>
+					</a>
+				</li>
+		  <!---->
+			</ul>
+		</li>
+	<!---->
+			</ul>
+		</nav>
+	
+		<span class="nav-bar-spacer"></span>
+		 
+	 <!----></div><!----></div>
+			</header>

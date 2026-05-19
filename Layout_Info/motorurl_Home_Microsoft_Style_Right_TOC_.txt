@@ -1,0 +1,43 @@
+<ol id="right-rail-in-this-article-list" class="padding-right-xxs">
+			<!---->
+					<li class="border-left-md padding-left-xxs border-color-primary">
+						<a href="#comparing-single-and-multiple-document-interfaces-in-excel-2010-and-excel-2013" class="font-weight-semibold color-text" aria-current="true"><!---->Comparing Single and Multiple Document Interfaces in Excel 2010 and Excel 2013<!----></a>
+					</li>
+				<!---->
+					<li class="border-left-md border-color-transparent padding-left-xxs ">
+						<a href="#whats-changed-in-the-user-interface" class="color-text-subtle"><!---->What's changed in the User Interface<!----></a>
+					</li>
+				<!---->
+					<li class="border-left-md border-color-transparent padding-left-xxs ">
+						<a href="#recalculation-and-formulas" class="color-text-subtle"><!---->Recalculation and Formulas<!----></a>
+					</li>
+				<!---->
+					<li class="border-left-md border-color-transparent padding-left-xxs ">
+						<a href="#custom-task-panes" class="color-text-subtle"><!---->Custom Task Panes<!----></a>
+					</li>
+				<!---->
+					<li class="border-left-md border-color-transparent padding-left-xxs ">
+						<a href="#custom-ribbons" class="color-text-subtle"><!---->Custom Ribbons<!----></a>
+					</li>
+				<!---->
+					<li class="border-left-md border-color-transparent padding-left-xxs ">
+						<a href="#considerations-for-vba-code" class="color-text-subtle"><!---->Considerations for VBA code<!----></a>
+					</li>
+				<!---->
+					<li class="border-left-md border-color-transparent padding-left-xxs ">
+						<a href="#deprecating-protect-workbook-windows" class="color-text-subtle"><!---->Deprecating Protect Workbook Windows<!----></a>
+					</li>
+				<!---->
+					<li class="border-left-md border-color-transparent padding-left-xxs ">
+						<a href="#solutions-for-sdi-issues" class="color-text-subtle"><!---->Solutions for SDI Issues<!----></a>
+					</li>
+				<!---->
+					<li class="border-left-md border-color-transparent padding-left-xxs ">
+						<a href="#summary" class="color-text-subtle"><!---->Summary<!----></a>
+					</li>
+				<!---->
+					<li class="border-left-md border-color-transparent padding-left-xxs ">
+						<a href="#see-also" class="color-text-subtle"><!---->See also<!----></a>
+					</li>
+				<!---->
+		</ol>
