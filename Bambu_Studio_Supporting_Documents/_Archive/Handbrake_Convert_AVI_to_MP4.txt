@@ -1,0 +1,15 @@
+Handbrake Convert AVI to MP4
+
+One time preset setup:
+
+Preset Base - Preset: General   HQ 1080p30
+
+Summary Tab - Format: MP4 - Web Optimized: On (optional but recommended)
+
+Video Tab - Video Codec: H.264 (x264) - Framerate (FPS): Same as source - Constant Framerate: Enabled - Quality: RF 18-20 - RF 18 = near lossless - RF 20 = smaller file, still excellent quality - Encoder 
+
+Preset: Medium (default)
+
+Dimensions Tab - Leave source dimensions unchanged - Ensure no cropping is applied
+
+Save Preset: "Bambu Timelapse MP4"
